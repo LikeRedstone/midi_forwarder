@@ -2,10 +2,10 @@
 A small program that takes USB-MIDI from e.g. a Keyboard and forwards it through your PC to a Synthesizer.
 
 ## Features
-- Octave shifting functionality
 - Real-time MIDI message forwarding
-- Simple configuration
-
+- Visible Notes with octave shifting
+- Terminal with MIDI-data
+  
 ## Requirements
 - Python 3.x
 - mido (`pip install mido`)
@@ -13,7 +13,7 @@ A small program that takes USB-MIDI from e.g. a Keyboard and forwards it through
 
 ## Installation
 1. Clone this repository
-2. Install requirements: `pip install -r requirements.txt`
+2. Install requirements as mentioned
 
 ## Usage
 Run directly:
@@ -38,3 +38,6 @@ pyinstaller --onefile --windowed midi_forwarder.py
 ```
 
 The executable will be created in the `dist` folder.
+
+## Additional notice
+This build was created with the help of BLACKBOX AI (www.blackbox.ai). Other Librarys that are used but should come preinstalled on your python-build are tkinter, queue and threading.
